@@ -228,23 +228,38 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+    background-image: url(https://assets2.fossilera.com/pi/3825/708x500%3E/1-1-2-polished-amazonite-stones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .led-wall {
-    
+    background-image: url(https://www.clicksonic.com/media/2c/c1/3a/1707564421/blaualgen-bobby-mckay-fickr_600x600.jpg?1707565439);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .react-calc {
-    
+    background-image: url(https://images.birdfact.com/production/kingfisher-2.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&dm=1615643847&s=64be623465f4cac4a70658b9f6eee4ce);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .pastel-puzzles {
-    
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/8A0A57E0-4FA4-42DC-A44267E8D5D8C94C_source.png?w=1350);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .surf-report {
-    
+    background-image: url(/assets/images/horiseon\ background\ image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   /* media queries */
@@ -283,7 +298,7 @@
     }
   }
   
-  /* TODO: add media query for a max-width of 768px */
+  /* TODO: add media query for a max-width of 768px -.flex-item:first-child = display: flex; flex direction:column*/
 
   @media screen and (max-width: 768px) {
     header {
