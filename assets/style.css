@@ -94,7 +94,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url(https://static.scientificamerican.com/sciam/cache/file/8A0A57E0-4FA4-42DC-A44267E8D5D8C94C_source.png?w=1350), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -249,7 +249,7 @@
   }
   
   .pastel-puzzles {
-    background-image: url(https://static.scientificamerican.com/sciam/cache/file/8A0A57E0-4FA4-42DC-A44267E8D5D8C94C_source.png?w=1350);
+    background-image: url(https://media.wired.com/photos/59325510b8eb31692072eca7/master/w_2240,c_limit/14484934133_5675a2839c_b.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
