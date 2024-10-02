@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
-  /* brand color palette */
+
   :root {
     --primary: rgba(68, 88, 119, 1);
     --secondary: rgba(146, 204, 206, 1);
@@ -178,7 +177,6 @@
     font-size: 0.9rem;
   }
   
-  /* feature first portfolio item */
   .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
@@ -195,6 +193,8 @@
   
   .flex-item h3 {
     font-size: 1.6rem;
+    background-color: var(--secondary);
+    color: var(--tertiary);
   }
   
   .contact address {
@@ -225,8 +225,6 @@
     color: var(--secondary);
   }
   
-  /* portfolio project images */
-  /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
     background-image: url(https://assets2.fossilera.com/pi/3825/708x500%3E/1-1-2-polished-amazonite-stones.jpg);
     background-size: cover;
@@ -261,10 +259,7 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-  
-  /* media queries */
-  
-  /* media queries for a max-width of 980px */
+
   @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
@@ -298,38 +293,13 @@
     }
   }
   
-  /* TODO: add media query for a max-width of 768px -.flex-item:first-child = display: flex; flex direction:column*/
-
-  @media screen and (max-width: 768px) {
-    header {
-      padding: 0 0 10px 0;
-      justify-content: center;
-      text-align: center;
+ @media screen and (max-width: 768px) {
+    .flex-item {
+      flex-direction: column;
     }
   
-    header h1 {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 10px;
-      font-size: 10vw;
-    }
-  
-    header nav {
-      justify-content: center;
-    }
-  
-    .page-section > h2,
-    .page-section > div {
-      flex: 0 0 100%;
-    }
-  
-    .page-section > h2 {
-      border-right: none;
-      border-bottom: 4px solid var(--primary);
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      text-align: left;
-      font-size: 7vw;
+    .flex-item:first-child {
+      min-height: 150px;
     }
   }
   
